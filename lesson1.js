@@ -1,3 +1,7 @@
+// https://www.youtube.com/watch?v=YMvzfQSI6pQ&t=19990s
+// Lesson1 = Basic JavaScript Syntax 23:53
+// =========================================
+
 console.log("hello world");
 
 // ' preferred, " possible

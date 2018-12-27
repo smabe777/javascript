@@ -1,3 +1,6 @@
+// Lesson13 = Object Literals 2:41:58
+// ====================================
+
 //typeof = object
 
 // Array : contains many elements
@@ -17,10 +20,10 @@ let car = {
   make: "bmw",
   model: "741li",
   year: 2010,
-  getPrice: function() {
+  getPrice: function () {
     return 5000;
   },
-  printDescription: function() {
+  printDescription: function () {
     console.log(this.make + " " + this.model);
   }
 };

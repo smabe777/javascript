@@ -1,3 +1,6 @@
+// Lesson2 = Variables 37:14
+// ==========================
+
 //const x = 7;
 let x = 7; //var , const
 let y = 3;

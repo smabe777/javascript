@@ -1,4 +1,6 @@
-// values and datatypes : what you can do with data / metadata
+// Lesson3 = Data Types 51:49
+// ===========================
+// what you can do with data / metadata
 //-------------------------
 
 let x = 7;

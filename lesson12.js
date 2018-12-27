@@ -1,4 +1,6 @@
-// RETURNING
+// Lesson12 = Returning Functions from Functions 2:31:41
+//======================================================
+
 // GLOBAL SCOPE : DO NOT
 
 // in the browser : top-most = Global Scope
@@ -7,7 +9,7 @@
 
 var myVariable = "I am at the global scope";
 
-var myFunction = function() {
+var myFunction = function () {
   console.log("me too");
 };
 
@@ -35,7 +37,7 @@ console.log(value2());
 // return function
 
 function two() {
-  return function() {
+  return function () {
     //function expression
     console.log("two");
   };
@@ -45,7 +47,7 @@ myFunction2();
 
 // directly invocating the returned function
 function three() {
-  return function() {
+  return function () {
     return "three";
   };
 }

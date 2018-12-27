@@ -1,0 +1,212 @@
+/* *{
+    margin:0;
+    padding:0;
+} */
+
+body{
+    background-color: rgb(235, 230, 230);
+    color: black;
+   /* font-family: 'Alfa Slab One', cursive;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.6em /*30px*/
+    
+        font: normal 12px 'Roboto', sans-serif;
+        
+}
+
+/* button{
+    color:black;
+    background-color: rosybrown;
+    font-family: 'Alfa Slab One', cursive;
+    margin:3%;
+
+} */
+.clr{
+    clear:both;
+}
+.ClickMe{
+    color:rgb(0, 26, 255);
+    background-color: rosybrown;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+.squad-buttons{
+    color:black;
+    font-family: 'Alfa Slab One', cursive;
+    margin:3%;
+    border:0px;
+    padding:0px;
+
+}
+
+
+.box-0{
+    background-color:whitesmoke;
+    padding: 20px;
+    margin: 20px 0;
+}
+.box-1{
+    background-color: #333;
+    /*border-right:5px red solid;*/
+}
+
+.box-2{
+    background-color: gold
+}
+.num{
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.buttons{
+    background-color: whitesmoke;
+    padding:3%;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color: yellow;
+}
+.container{
+    width : 80%;
+     background-color:whitesmoke;
+     margin: 10%;
+     padding:10px;
+     border: 5px black solid;
+     margin-bottom: 3%;
+}
+.container .button{
+    background-color: #333;
+    color:#fff;
+    padding:10px 15px;
+    border: none;
+}
+.container .button-clicked{
+    padding:10px 15px;
+    border-bottom: 5px black solid;
+}
+.container .button:hover{
+    background-color: red;
+    color: #fff;
+}
+.categories{
+  border: 3px #000 dotted;
+  background-color:#ccc;
+  padding: 10px;
+  border-radius:15px;
+   margin: 3%;
+}
+
+.categories h2{
+  text-align: center;
+}
+
+.categories ul{
+  padding-left: 10px;
+  margin:10px;
+  list-style:square;
+  /*list-style:none;*/
+}
+.categories li{
+    padding-bottom:6px;
+      padding-left:0px;
+    border-bottom:dotted 1px #333;
+    list-style-image: url('../images/check2.png');
+    font: normal 16px 'Roboto', sans-serif;
+}
+
+.my-form{
+padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom:15px
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width: 90%;
+}
+.block{
+    float: left;
+    width:33.3%;
+    border: 1px solid #ccc;
+    padding:2%;
+    box-sizing:border-box;
+    margin-top: 3%;
+}
+.triblock{
+    border: 1px solid black;
+}
+#main-block{
+    float:left;
+    width:60%;
+    padding: 15px;
+        box-sizing: border-box;
+}
+#sidebar{
+    float:right;
+    width:30%;
+    background-color:#333;
+    color:#fff;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    position: relative;
+    background-image:url('../images/images.jpg');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.p-box h1{
+    position:absolute;
+    top:40px;
+}
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:100px;
+}
+.fix-me{
+    position:fixed;
+    top:400px;
+    background:#333;
+    border: #ccc;
+    padding:10px 25px;
+    color:black
+}
+
+.my-list li:first-child{
+    background : red;
+}
+
+.my-list li:last-child{
+    background :blue;
+}
+
+.my-list li:nth-child(5){
+    background : yellow;
+}
+
+.my-list li:nth-child(even){
+    background : grey;
+}

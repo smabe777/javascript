@@ -1,0 +1,6 @@
+Install Live Server from VSCode components
+
+new file
+
+! and tab to get Emmet with doctype
+

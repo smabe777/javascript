@@ -1,4 +1,5 @@
-// ITERATIONS
+// Lesson10 = Iteration Statements 2:11:29
+//==========================================
 
 for (i = 0; i < 10; i++) {
   console.log(i);

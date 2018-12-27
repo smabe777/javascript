@@ -1,4 +1,5 @@
-// Scope
+// Lesson11 = Basics of Scope 2:23:54
+//====================================
 
 // Variable has a lifetime and a citizenship
 

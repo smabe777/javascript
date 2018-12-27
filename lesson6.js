@@ -1,3 +1,6 @@
+// Lesson6 = Arrays 1:23:40
+//========================
+
 // Deal with lists , groups of related values
 
 // ARRAYS

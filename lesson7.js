@@ -1,3 +1,6 @@
+//Lesson7 = Function Declaration 1:34:54
+//=======================================
+
 // log is a function
 // function = block of code we want to execute over and over
 // primary construct in the language
